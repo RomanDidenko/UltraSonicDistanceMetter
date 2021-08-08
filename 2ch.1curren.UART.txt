@@ -1,0 +1,20 @@
+Board type: CC2530 + CC2592
+Device type: Router
+ Transmit enable (TXEN): P12Receive enable (RXEN), P14
+Model ID: 2ch.1curren.UART
+Update firmware's timestamp : 2021-08-07
+Status LED: P15, Joining or errors
+Set default reporting interval (s): 60
+
+Output pins:
+P00: Output 1, ACS712,ACS758 (current) (Type: ACS712: 20 A (+/-), Frequency (Hz): 50, Voltage (V): 220, Monitor output: 2)
+P12: Output 2, Bistable relay On, Pull-up (Impulse (ms): 100, Restore after power off: Last), Remember state
+P14: Output 3, Bistable relay Off, Pull-up (Impulse (ms): 100)
+P02: Output 4, UART (Baud rate: 9600, Packet end: None, Byte: 239)
+P16: Output 6, Bistable relay On, Pull-up (Impulse (ms): 100, Restore after power off: Last), Remember state
+P17: Output 7, Bistable relay Off, Pull-up (Impulse (ms): 100)
+P01: Output 8, DS18B20, Pull-up (Sensor ID (optional, hex): )
+
+Input pins:
+P13: Input 2, GPIO, Pull-up, Switch, Link to out 2
+P20: Input 5, GPIO, Pull-up, Switch, Link to out 5
